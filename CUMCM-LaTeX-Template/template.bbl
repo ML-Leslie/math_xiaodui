@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[司守奎(2011)]{司守奎2011数学建模算法与应用}
+司守奎.
+\newblock 数学建模算法与应用\allowbreak[M].
+\newblock 高等教育出版社, 2011.
+
+\end{thebibliography}
